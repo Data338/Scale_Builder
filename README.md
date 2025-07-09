@@ -16,4 +16,4 @@ This was built as part of my studies, but also because I wanted a fast way to re
 Make sure you have Python 3 installed. Then just run it from terminal:
 
 ```bash
-python scale_explorer.py
+python ScaleBuilder.py
