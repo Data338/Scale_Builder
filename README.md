@@ -1,19 +1,65 @@
-# 🎹 Terminal Scale Explorer
+🎹 Terminal Scale Explorer
 
-A little project I made to help visualize musical scales straight from the terminal. You input a root note, and it spits out the chromatic intervals in that key — both sharp and flat variations supported.
+A CLI tool to visualize and explore a wide variety of musical scales directly in your terminal.
+You input a root note, pick a scale, and the program generates all notes in that scale — supporting both sharp and flat variations.
 
-This was built as part of my studies, but also because I wanted a fast way to reference theory stuff while jamming or composing. I’m keeping things simple and terminal-based for now, but might expand it later.
+Originally built as part of my music theory studies, but also as a quick reference while jamming or composing. It’s simple, fast, and purely terminal-based for now, but future plans might include more interactive or visual features.
+✨ Features
 
-## ✨ Features
+    Supports sharp and flat input (C#, Eb, Bb, etc.).
 
-- Handles sharp and flat input (`C#`, `Eb`, `Bb`, etc.)
-- Displays semitone distances and common names (Major 3rd, Minor 6th, etc.)
-- Recognizes enharmonic equivalents
-- Full chromatic interval map up to the 13th
+    Displays full chromatic scale and interval names.
 
-## 🚀 How to Run
+    Recognizes enharmonic equivalents.
 
-Make sure you have Python 3 installed. Then just run it from terminal:
+    Generates 17 different scales, including:
 
-```bash
+        Chromatic
+
+        Ionian (Major)
+
+        Dorian
+
+        Phrygian
+
+        Lydian
+
+        Mixolydian
+
+        Aeolian (Natural Minor)
+
+        Locrian
+
+        Harmonic Minor
+
+        Melodic Minor
+
+        Double Harmonic Major
+
+        Phrygian Dominant
+
+        Whole Tone
+
+        Octatonic (Diminished)
+
+        Major Pentatonic
+
+        Minor Pentatonic
+
+        Blues Pentatonics (Major & Minor)
+
+🚀 How to Run
+
+Ensure you have Python 3 installed.
+Clone the repository and run the script:
+
 python ScaleBuilder.py
+
+You’ll be prompted to select a root note and choose from the available scales.
+🔮 Future Improvements
+
+    Refactoring for better readability and performance.
+
+    Potential addition of chord generation and modal interchange.
+
+    Maybe even a TUI (Text User Interface) version for smoother navigation.
